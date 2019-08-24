@@ -13,7 +13,7 @@
         <div class="Navigation-navText">
           <h1 class="Nav--title">PAPER SWAP</h1>
           <h2 class="Nav--subtitle">Currency Exchange</h2>
-          <select class="Nav--baseCurrency" id="baseCurrency" onChange='doFetch()'>
+          <select class="Nav--baseCurrency" id="baseCurrency" onChange='selectCurrency()'>
             <option value="CurrencyOptions">Select a Currency</option>
             <option value="USD">USD</option>
             <option value="EUR">EUR</option>
@@ -23,7 +23,7 @@
 <!-- Navigation End -->
 
 <!-- BarChart -->
-      <div class="BarChart">
+      <div class="BarChart" id = >
         <div class="BarChart-bar" onClick="alert('1 AUD = 1.47 USD')" style="height: 73.7%">AUD</div>
         <div class="BarChart-bar" onClick="alert('1 CAD = 1.33 USD')" style="height: 66.6%">CAD</div>
         <div class="BarChart-bar" onClick="alert('1 GBP = 0.82 USD')" style="height: 41.2%">GBP</div>
@@ -36,7 +36,7 @@
 <!-- BarChart End -->
     </div>
 
-    <script>src="js/main.js" charset="utf-8"></script>
+    <script src="./js/main.js"></script>
 
   </body>
 </html>
