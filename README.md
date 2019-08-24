@@ -4,4 +4,4 @@ This is a project where I'm displaying exchange rate for different currencies in
 
 The data-sets used are from http://exchangeratesapi.io/.
 
-Color palette from https://colorhunt.co/palette/106748
+Color palette from https://colorhunt.co/palette/106748.
