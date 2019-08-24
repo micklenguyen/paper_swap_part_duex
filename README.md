@@ -1,4 +1,4 @@
-Paper Swap
+<h1>Paper Swap</h1>
 
 This is a project where I'm displaying exchange rate for different currencies in a bar chart.
 
