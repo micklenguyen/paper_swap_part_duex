@@ -1,0 +1,92 @@
+
+@import url('https://fonts.googleapis.com/css?family=Roboto&display=swap');
+
+:root {
+    --tangerine: #ff935c;
+    --brick-red: #dc5353;
+    --magenta: #a72461;
+    --light-yellow: #f9e090;
+}
+
+body {
+  margin: 0;
+}
+
+h1 {
+  font-family: 'Roboto', sans-serif;
+  font-size: 4.5rem;
+  margin: 10px;
+  color: white;
+}
+h2 {
+  font-family: 'Roboto', sans-serif;
+  font-size: 3rem;
+  margin: 10px;
+  color: var(--magenta);
+}
+
+.Container {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 50px 700px;
+  grid-row-gap: 20px;
+  grid-column-gap: 20px;
+  border: 2px solid var(--magenta);
+  background-color: var(--light-yellow);
+}
+
+.Navigation {
+  width:100%;
+  background-color: var(--tangerine);
+  position:fixed;
+  top:0px;
+  height:70px;
+  line-height:52px;
+}
+
+.Nav--title{
+  text-align:left;
+}
+
+.Nav--subtitle{
+  text-align:left;
+}
+
+.Nav--baseCurrency {
+  text-align:right;
+  position:absolute;
+  right: 20px;
+  top: 25px;
+  font: font-family: 'Roboto', sans-serif;
+}
+
+.BarChart {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  grid-area: 2;
+  transform: rotate(180deg);
+  border:
+
+}
+
+.BarChart-bar {
+  background-color: var(--brick-red);
+  padding: 10px;
+  margin: 2px;
+  border-radius: 5px;
+  transform: rotate(180deg);
+  width: 75px;
+  color: white;
+  text-align: center;
+  font-family: 'Roboto', sans-serif;
+  transition-property: margin;
+}
+
+.BarChart-bar:nth-child(odd) {
+  background: var(--tangerine);
+}
+
+.BarChart-bar:hover {
+  transform: scale(1.1) rotate(180deg)
+}
